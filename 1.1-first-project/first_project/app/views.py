@@ -10,9 +10,7 @@ def home_view(request):
         'Показать текущее время': reverse('time'),
         'Показать содержимое рабочей директории': reverse('workdir')
     }
-    
-    # context и параметры render менять не нужно
-    # подбробнее о них мы поговорим на следующих лекциях
+
     context = {
         'pages': pages
     }
