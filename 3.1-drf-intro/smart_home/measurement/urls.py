@@ -1,5 +1,5 @@
 from django.urls import path
-from measurement.views import SensView, SensorView, MeasurementView
+from views import SensView, SensorView, MeasurementView
 
 urlpatterns = [
     path('sensors/', SensView.as_view()),

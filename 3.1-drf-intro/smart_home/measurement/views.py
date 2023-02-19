@@ -2,8 +2,8 @@ from rest_framework import generics
 from rest_framework.generics import ListCreateAPIView, CreateAPIView
 from rest_framework.response import Response
 
-from measurement.models import Sensor, Measurement
-from measurement.serializers import SensorDetailSerializer, MeasurementSerializer, SensorSerializer
+from models import Sensor, Measurement
+from serializers import SensorDetailSerializer, MeasurementSerializer, SensorSerializer
 
 
 class SensView(ListCreateAPIView):
